@@ -1,0 +1,772 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Job_Portal</title>
+		<meta name="description" content="...">
+
+        <meta name="viewport" content="width=device-width, maximum-scale=5, initial-scale=1, user-scalable=0">
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+        <!-- up to 10% speed up for external res -->
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com/">
+        <link rel="preconnect" href="https://fonts.googleapis.com/">
+        <link rel="preconnect" href="https://fonts.gstatic.com/">
+        <!-- preloading icon font is helping to speed up a little bit -->
+        <link rel="preload" href="assets/fonts/flaticon/Flaticon.woff2" as="font" type="font/woff2" crossorigin>
+
+        <link rel="stylesheet" href="assets/css/core.min.css">
+        <link rel="stylesheet" href="assets/css/vendor_bundle.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap">
+
+		<!-- favicon -->
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="apple-touch-icon" href="demo.files/logo/icon_512x512.png">
+
+		<link rel="manifest" href="assets/images/manifest/manifest.json">
+		<meta name="theme-color" content="#377dff">
+
+		<!-- custom css  -->
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+	<body>
+		<div id="wrapper">
+					<!-- HEADER -->
+					<header id="header" class="container position-relative shadow-xs">
+						<div class="ml--15 mr--15 pl--15 pr--15 mt-4 row-pill position-absolute bg-white rounded left-0 right-0 shadow-xlg">
+
+							<!-- NAVBAR ---->
+							<div class=" position-relative">
+			
+								<nav class="navbar navbar-expand-lg navbar-light justify-content-lg-between justify-content-md-inherit">
+			
+									<div class="align-items-start">
+			
+										<!-- mobile menu button : show -->
+										<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMainNav" aria-controls="navbarMainNav" aria-expanded="false" aria-label="Toggle navigation">
+											<svg width="25" viewBox="0 0 20 20">
+												<path d="M 19.9876 1.998 L -0.0108 1.998 L -0.0108 -0.0019 L 19.9876 -0.0019 L 19.9876 1.998 Z"></path>
+												<path d="M 19.9876 7.9979 L -0.0108 7.9979 L -0.0108 5.9979 L 19.9876 5.9979 L 19.9876 7.9979 Z"></path>
+												<path d="M 19.9876 13.9977 L -0.0108 13.9977 L -0.0108 11.9978 L 19.9876 11.9978 L 19.9876 13.9977 Z"></path>
+												<path d="M 19.9876 19.9976 L -0.0108 19.9976 L -0.0108 17.9976 L 19.9876 17.9976 L 19.9876 19.9976 Z"></path>
+											</svg>
+										</button>
+										
+								
+			
+										<!-- 
+											Logo : height: 70px max
+										-->
+										<a class="navbar-brand" href="index.html">
+											<img src="assets/images/logo/logo_dark.svg" width="110" height="70" alt="...">
+										</a>
+			
+									</div>
+			
+			
+			
+			
+									<!-- Menu -->
+									<div class="collapse navbar-collapse navbar-animate-fadein justify-content-center" id="navbarMainNav">
+			
+			
+										<!-- MOBILE MENU NAVBAR -->
+										<div class="navbar-xs d-none"><!-- .sticky-top -->
+			
+											<!-- mobile menu button : close -->
+											<button class="navbar-toggler pt-0" type="button" data-toggle="collapse" data-target="#navbarMainNav" aria-controls="navbarMainNav" aria-expanded="false" aria-label="Toggle navigation">
+												<svg width="20" viewBox="0 0 20 20">
+													<path d="M 20.7895 0.977 L 19.3752 -0.4364 L 10.081 8.8522 L 0.7869 -0.4364 L -0.6274 0.977 L 8.6668 10.2656 L -0.6274 19.5542 L 0.7869 20.9676 L 10.081 11.679 L 19.3752 20.9676 L 20.7895 19.5542 L 11.4953 10.2656 L 20.7895 0.977 Z"></path>
+												</svg>
+											</button>
+			
+											<!-- 
+												Mobile Menu Logo 
+												Logo : height: 70px max
+											-->
+											<a class="navbar-brand" href="index.html">
+												<img src="assets/images/logo/logo_dark.svg" width="110" height="70" alt="...">
+											</a>
+										
+											
+
+										
+										
+			
+										</div>
+										<!-- /MOBILE MENU NAVBAR -->
+			
+			
+			
+										<!-- NAVIGATION -->
+										<ul class="navbar-nav">
+			
+											<!-- home -->
+											<li class="nav-item">
+			
+												<a class="nav-link" href="index.html">
+													Home
+												</a>
+			
+											</li>
+			
+											<!-- about -->
+											<li class="nav-item">
+			
+												<a class="nav-link" href="niche.realestate-about.html">
+													About Us
+												</a>
+			
+											</li>
+			
+											<!-- pages -->
+											<li class="nav-item dropdown">
+			
+												<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="mainNavFeatures">
+													Trainers
+												</a>
+			
+												<ul class="dropdown-menu dropdown-menu-clean dropdown-menu-hover" aria-labelledby="mainNavFeatures">
+			
+													<li class="dropdown-item">
+														<a class="dropdown-link" href="niche.realestate-category.html">Category</a>
+													</li>
+			
+													<li class="dropdown-item">
+														<a class="dropdown-link" href="niche.realestate-item.html">Property View</a>
+													</li>
+			
+												</ul>
+			
+											</li>
+			
+			
+											<!-- about -->
+											<li class="nav-item">
+			
+												<a class="nav-link" href="niche.realestate-contact.html">
+													Contact Us
+												</a>
+			
+											</li>
+			
+			
+											<!-- social : mobile only (d-block d-sm-none)
+											<li class="nav-item d-block d-sm-none text-center mb-4">
+			
+												<h3 class="h6 text-muted">Follow Us</h3>
+			
+												<a href="#!" class="btn btn-sm btn-facebook transition-hover-top mb-2 rounded-circle text-white" rel="noopener">
+													<i class="fi fi-social-facebook"></i> 
+												</a>
+			
+												<a href="#!" class="btn btn-sm btn-twitter transition-hover-top mb-2 rounded-circle text-white" rel="noopener">
+													<i class="fi fi-social-twitter"></i> 
+												</a>
+			
+												<a href="#!" class="btn btn-sm btn-linkedin transition-hover-top mb-2 rounded-circle text-white" rel="noopener">
+													<i class="fi fi-social-linkedin"></i> 
+												</a>
+			
+												<a href="#!" class="btn btn-sm btn-youtube transition-hover-top mb-2 rounded-circle text-white" rel="noopener">
+													<i class="fi fi-social-youtube"></i> 
+												</a>
+			
+											</li> -->
+			
+			
+										</ul>
+										<!-- /NAVIGATION -->
+			
+			
+									</div>
+			
+			
+			
+								
+									<ul class=" list-unstyled mb-0  d-middle align-items-end" id="asdf">
+			
+										<li class="nav-item dropdown">
+								
+												<a class="nav-link dropdown-toggle btn btn-sm btn-pill btn-primary" type="button" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false"  id="loginorRegisterFeatures" >
+													<span class="group-icon">
+														<i class="fi fi-user-male"></i>
+
+													</span> 	Login / Register
+												</a>
+			
+												<ul class="dropdown-menu dropdown-menu-clean" aria-labelledby="loginorRegisterFeatures" >
+			
+													<li class="dropdown-item">
+														<a class="dropdown-link js-ajax-modal" href="#"	data-href="_ajax/modal_signin_md.html"
+														data-ajax-modal-size="modal-md"
+														data-ajax-modal-centered="true"
+														data-ajax-modal-backdrop="static">
+														Login As Trainer</a>
+													</li>
+													<li class="dropdown-item">
+														<a class="dropdown-link js-ajax-modal" href="#"	data-href="_ajax/modal_signin_md.html"
+														data-ajax-modal-size="modal-md"
+														data-ajax-modal-centered="true"
+														data-ajax-modal-backdrop="static">
+														Login </a>
+													</li>
+													<li class="dropdown-item">
+														<a class="dropdown-link js-ajax-modal" href="#"	data-href="_ajax/modal_signin_md.html"
+														data-ajax-modal-size="modal-md"
+														data-ajax-modal-centered="true"
+														data-ajax-modal-backdrop="static">
+														Register</a>
+													</li>
+													<li class="dropdown-item">
+														<a class="dropdown-link js-ajax-modal" href="#"	data-href="_ajax/modal_signin_md.html"
+														data-ajax-modal-size="modal-md"
+														data-ajax-modal-centered="true"
+														data-ajax-modal-backdrop="static">
+														Register as Trainer</a>
+													</li>
+			
+								
+			
+												</ul>
+			
+										
+											
+											
+			
+											<!-- ALREADY SIGNED IN -->
+											<!--
+											<a href="#" aria-label="Account Options" id="dropdownAccountOptions" class="btn btn-sm btn-primary btn-pill" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
+												<span class="group-icon">
+													<i class="fi fi-user-male"></i>
+													<i class="fi fi-close"></i>
+												</span> 
+												<span>Account</span>
+											</a>
+			
+											<div aria-labelledby="dropdownAccountOptions" class="prefix-link-icon prefix-icon-dot dropdown-menu dropdown-menu-clean dropdown-menu-invert dropdown-click-ignore p-0 mt--18 fs--15">
+												<div class="dropdown-header">
+													John Doe
+												</div>
+												<div class="dropdown-divider"></div>
+												<a href="account-orders.html" title="My Orders" class="dropdown-item text-truncate font-weight-light">
+													My Orders <small>(2)</small>
+												</a>
+												<a href="account-favourites.html" title="My Favourites" class="dropdown-item text-truncate font-weight-light">
+													My Favourites <small>(3)</small>
+												</a>
+												<a href="account-settings.html" title="Account Settings" class="dropdown-item text-truncate font-weight-light">
+													Account Settings
+												</a>
+												<div class="dropdown-divider mb-0"></div>
+												<a href="#!" title="Log Out" class="prefix-icon-ignore dropdown-footer dropdown-custom-ignore">
+													<i class="fi fi-power float-start"></i>
+													Log Out
+												</a>
+											</div>
+											-->
+			
+										</li>
+			
+									</ul>
+									
+
+									
+									
+									<!-- OPTIONS -->
+								
+									<!-- /OPTIONS -->
+									
+			
+			
+			
+								</nav>
+			
+							</div>
+							<!-- /NAVBAR -->
+						</div>
+		
+					</header>
+					<!-- /HEADER -->
+		
+		
+				
+		
+		
+					<!-- COVER + SEARCH -->
+					<section class="bg-theme-color-light overlay-dark overlay-opacity-8 bg-cover lazy" 
+						 data-background-image="jobportallandingpage.jpg">
+						
+						<div class="container"> 
+		
+							<div class="row text-center-md text-center-xs d-middle justify-content-start">
+								
+								<div class="col-12 col-lg-6  order-md-1 order-lg-1 mb-5 text-white" data-aos="fade-in" data-aos-delay="0" data-aos-offset="0">
+		
+									<!-- main title -->
+									<h1 class="h2-xs display-4 pt--30 mb-0">
+										<span class="d-inline-block">
+		
+										
+		
+										Search your Job
+										</span>
+									</h1>
+									
+									<!-- slogan -->
+									<p class="h2 h5-xs font-weight-normal mb-0">
+										Your job, one click away
+									</p>
+		
+								</div>
+		
+								<div class="col-12 col-lg-6  order-md-2 order-lg-2 text-align-end align-items-start text-center-md text-center-xs" data-aos="fade-in" data-aos-delay="50" data-aos-offset="0">
+		
+									<div class="d-inline-block bg-white shadow-primary-xs rounded p--30 mt--30 p-4-xs w-100 max-w-450 text-align-start">
+								
+										<h2 class="h5 mb-5 	text-center">
+											
+											<span class="d-inline-block pl-2 pr-2">Smart Search</span>
+										</h2>
+		
+										<form novalidate class="bs-validate" method="get" action="#">
+		
+											
+
+											<div class="form-label-group mb-3">
+												<input required id="search_for_jobortrainer" type="text" class="form-control" placeholder="Search for job or trainer">
+												<label for="search_for_jobortrainer">Search for job or trainer</label>
+											 </div>
+											 <div class="form-label-group mb-3">
+												<input required id="search_for_jobortrainer" type="text" class="form-control" placeholder="Search for job or trainer">
+												<label for="search_for_jobortrainer"><i class="fi fi-pin"></i>Location</label>
+											 </div>
+											 <div class="clearfix mb-4">
+												<label class="form-radio form-radio-secondary">
+													<input type="radio" name="s_type" value="1" checked>
+													<i></i> Training Requirements
+												</label>
+		
+												<label class="form-radio form-radio-secondary">
+													<input type="radio" name="s_type" value="2">
+													<i></i> Trainers
+												</label>
+											</div>
+									
+		
+											<!-- <div class="form-label-group mb-4">
+												<select required id="s_location" class="form-control bs-select" data-live-search="true" title="No City Selected">
+													<option value="">No City Selected</option>
+													<option value="1">New York City</option>
+													<option value="2">Washington, DC Area</option>
+													<option value="3">Miami</option>
+													<option value="4">Greater Boston</option>
+													<option value="5">The Hamptons</option>
+													<option value="6">Los Angeles &amp; Orange County</option>
+													<option value="7">Santa Barbara &amp; Montecito</option>
+													<option value="8">Aspen</option>
+													<option value="9">San Francisco Bay Area</option>
+												</select>
+												<label for="s_location">Select a City,Country...</label>
+											</div> -->
+		
+											
+		
+											
+		
+										
+		
+		
+											<button type="submit" class="btn btn-block btn-lg btn-primary bg-gradient-primary-soft">
+												<i class="fi fi-search"></i>
+												Search
+											</button>
+										</form>
+		
+									</div>
+									<!--
+										To remember last tab, add:
+										.nav-link.nav-link-remember
+									-->
+
+
+
+		
+												
+								</div>
+		
+							</div>
+		
+						</div>
+		
+					</section>	
+					<!-- /COVER + SEARCH -->
+
+						<!-- Forum / Comunity -->
+					<section>
+						<div class="container">
+
+							<div class="row">
+
+								<div class="order-2 order-lg-1 col-12 col-lg-7">
+
+									<div class="bg-white p-4 rounded">
+
+										<h2 class="h4 mb-3 text-primary font-weight-normal">
+											Training Requirements
+										</h2>
+
+
+										<!-- item -->
+										<div class="clearfix border-bottom py-4">
+											<div class="d-flex">
+
+												
+
+												<div class="col">
+													<a href="forum-topic.html" class="h6 text-dark">
+														Dot Net Full stack Training
+													</a>
+
+													<p>
+														Gravida rutrum quisque non tellus orci ac auctor augue mauris. Commodo quis imperdiet massa tincidunt. Tincidunt eget nullam non nisi.
+													</p>
+												</div>
+
+											</div>
+
+											<ul class="list-inline mt-2 text-muted fs--14">
+												<li class="list-inline-item">
+													<i class="fi fi-chat float-start"></i> 26 posts 
+												</li>
+												<li class="list-inline-item">
+													<i class="fi fi-time float-start"></i> 29 June 2020 16:41
+												</li>
+											</ul>
+										</div>
+										<!-- /item -->
+
+
+										<!-- item -->
+										<div class="clearfix border-bottom py-4">
+											<div class="d-flex">
+
+											
+
+												<div class="col">
+													<a href="forum-topic.html" class="h6 text-dark">
+														Dot Net Full stack Training
+													</a>
+
+													<p>
+														Gravida rutrum quisque non tellus orci ac auctor augue mauris. Commodo quis imperdiet massa tincidunt. Tincidunt eget nullam non nisi.
+													</p>
+													
+												</div>
+
+											</div>
+
+											<ul class="list-inline mt-2 text-muted fs--14">
+												<li class="list-inline-item">
+													<i class="fi fi-chat float-start"></i> 26 posts 
+												</li>
+												<li class="list-inline-item">
+													<i class="fi fi-time float-start"></i> 29 June 2020 16:41 
+												</li>
+											</ul>
+										</div>
+										<!-- /item -->
+										<!-- item -->
+										<div class="clearfix border-bottom py-4">
+											<div class="d-flex">
+
+											
+
+												<div class="col">
+													<a href="forum-topic.html" class="h6 text-dark">
+														Node js Training
+													</a>
+
+													<p>
+														Gravida rutrum quisque non tellus orci ac auctor augue mauris. Commodo quis imperdiet massa tincidunt. Tincidunt eget nullam non nisi.
+													</p>
+												</div>
+
+											</div>
+
+											<ul class="list-inline mt-2 text-muted fs--14">
+												<li class="list-inline-item">
+													<i class="fi fi-chat float-start"></i> 26 posts 
+												</li>
+												<li class="list-inline-item">
+													<i class="fi fi-time float-start"></i> 29 June 2020 16:41 
+												</li>
+											</ul>
+										</div>
+										<!-- /item -->
+										<div class="text-align-end">
+											<a href="niche.classifieds-category.html" class="btn btn-light btn-sm">
+												<span>view all</span>
+												<i class="fi fi-arrow-end"></i>
+											</a>
+										</div>
+										
+
+
+								
+
+
+
+
+
+											
+
+									</div>
+
+								</div>
+
+								<div class="order-1 order-lg-2 col-12 col-lg-5">
+									<div class="bg-white p-4 rounded">
+										<h2 class="h4 mb-3 text-primary font-weight-normal">
+										 Trainers available
+										</h2>
+									
+										<a href="niche.classifieds-item.html"
+											class="d-flex p-2 mb-3 shadow-xs shadow-md-hover rounded text-decoration-none transition-hover-top transition-all-ease-250">
+									
+											<!-- image -->
+											<div class="text-center bg-light w--100 h--100 rounded bg-cover lazy"
+												data-background-image="demo.files/images/unsplash/products/thumb_330/barrett-ward-cOJgO4Zzs-w-unsplash-min.jpg">
+											</div>
+									
+											<div class="col px-3">
+									
+												<p class="fs--18 pt-2 mb-2 font-weight-medium text-dark">
+													Java trainer
+													<span class="d-block mt-2 text-dark font-weight-light fs--18">
+														Expected Salary	10 LPA
+													</span>
+												</p>
+									
+											</div>
+									
+										</a>
+									
+									
+										<a href="niche.classifieds-item.html"
+											class="d-flex p-2 mb-3 shadow-xs shadow-md-hover rounded text-decoration-none transition-hover-top transition-all-ease-250">
+									
+											<!-- image -->
+											<div class="text-center bg-light w--100 h--100 rounded bg-cover lazy"
+												data-background-image="demo.files/images/unsplash/products/thumb_330/aidan-hancock-EwKkZu18HPo-unsplash-min.jpg">
+											</div>
+									
+											<div class="col px-3">
+									
+												<p class="fs--18 pt-2 mb-2 font-weight-medium text-dark">
+													DotNet trainer
+													<span class="d-block mt-2 text-dark  fs--18">
+														Expected Salary	15 LPA
+													</span>
+												</p>
+									
+											</div>
+									
+										</a>
+									
+									
+										<a href="niche.classifieds-item.html"
+											class="d-flex p-2 mb-3 shadow-xs shadow-md-hover rounded text-decoration-none transition-hover-top transition-all-ease-250">
+									
+											<!-- image -->
+											<div class="text-center bg-light w--100 h--100 rounded bg-cover lazy"
+												data-background-image="demo.files/images/unsplash/products/thumb_330/aidan-hancock-UtzrcidfCsk-unsplash-min.jpg">
+											</div>
+									
+											<div class="col px-3">
+									
+												<p class="fs--18 pt-2 mb-2 font-weight-medium text-dark">
+													Node.js trainer
+													<span class="d-block mt-2 text-dark  fs--18">
+														Expected Salary	15 LPA
+													</span>
+												</p>
+									
+											</div>
+									
+										</a>
+										<a href="niche.classifieds-item.html"
+											class="d-flex p-2 mb-3 shadow-xs shadow-md-hover rounded text-decoration-none transition-hover-top transition-all-ease-250">
+									
+											<!-- image -->
+											<div class="text-center bg-light w--100 h--100 rounded bg-cover lazy"
+												data-background-image="demo.files/images/unsplash/products/thumb_330/aidan-hancock-UtzrcidfCsk-unsplash-min.jpg">
+											</div>
+									
+											<div class="col px-3">
+									
+												<p class="fs--18 pt-2 mb-2 font-weight-light text-dark">
+													Python trainer
+													<span class="d-block mt-2 text-dark font-weight-medium fs--18">
+														Expected Salary	11 LPA
+													</span>
+												</p>
+									
+											</div>
+									
+										</a>
+									
+									
+										<div class="text-align-end">
+											<a href="niche.classifieds-category.html" class="btn btn-light btn-sm">
+												<span>view all</span>
+												<i class="fi fi-arrow-end"></i>
+											</a>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+					</section>
+			<!-- /Forum / Comunity -->
+
+
+
+
+						<!-- Footer -->
+			<footer id="footer" class="footer-dark">
+				<div class="container">
+
+					<div class="row">
+						
+						<div class="bg-distinct col-12 col-md-6 col-lg-4 text-center p-0 py-5">
+
+							<!-- <div class="footer-svg-shape position-absolute absolute-top z-index-2 mt--n70 w-100 overflow-hidden pt--5">
+								<svg viewBox="0 0 1440 28" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+									<path d="M0 28H1440C1440 28 1154 3.21961e-10 720 1.30487e-09C286 2.28777e-09 0 28 0 28Z"></path>
+								</svg>
+							</div> -->
+
+							<form method="post" action="#subscribe_url" class="px-4"> 
+
+								<input type="hidden" name="action" value="subscribe" tabindex="-1"> 
+								
+								<p id="btnAriaFooterFormTitle" class="text-muted">
+									Claim your candy now!
+								</p>
+								
+									
+								<div class="input-group-over input-group-pill mb-4"> 
+									
+									<input required class="form-control b-0" name="subscriber_email" type="email" value="" placeholder="email address..." aria-label="email address...">
+									
+									<button type="submit" class="btn bg-transparent shadow-none" aria-label="subscribe" aria-labelledby="btnAriaFooterFormTitle"> 
+										<i class="fi fi-send fs--18"></i> 
+									</button>
+
+								</div>
+
+
+							</form>
+
+							<div class="mt--12"> 
+
+								<a href="#!" class="btn btn-sm btn-facebook transition-hover-top mb-2 rounded-circle" rel="noopener" aria-label="facebook page">
+									<i class="fi fi-social-facebook"></i> 
+								</a>
+
+								<a href="#!" class="btn btn-sm btn-twitter transition-hover-top mb-2 rounded-circle" rel="noopener" aria-label="twitter page">
+									<i class="fi fi-social-twitter"></i> 
+								</a>
+
+								<a href="#!" class="btn btn-sm btn-linkedin transition-hover-top mb-2 rounded-circle" rel="noopener" aria-label="linkedin page">
+									<i class="fi fi-social-linkedin"></i> 
+								</a>
+
+								<a href="#!" class="btn btn-sm btn-youtube transition-hover-top mb-2 rounded-circle" rel="noopener" aria-label="youtube page">
+									<i class="fi fi-social-youtube"></i> 
+								</a>
+
+							</div>
+
+						</div>
+
+
+						<div class="col-12 col-md-6 col-lg-8 py-5 fs--15 text-center-xs">
+
+							<h3 class="fs--15 text-muted">SPY US! WE'VE GOT SECRETS!</h3>
+
+							<ul class="mt--30 mb-0 breadcrumb bg-transparent p-0 block-xs"> 
+								<li class="breadcrumb-item"><a href="contact-1.html">Contact</a></li> 
+								<li class="breadcrumb-item"><a href="about-us-1.html">About Us</a></li> 
+								<li class="breadcrumb-item"><a href="page-terms-and-conditions.html">Terms &amp; Conditions</a></li> 
+								<li class="breadcrumb-item"><a href="page-cookie.html">GDPR &amp; Cookies</a></li> 
+							</ul>
+
+							<div class="text-muted mt--30">
+								<p>
+									Frontend? Admin? What if you don't need anymore to learn and work with two different templates on your projects? 
+									<b>What would you do if time really matter?</b> Both: frontend and admin uses exactly the same core and all elements can be used in both sides because... actually there are no such thing "two sides" with Smarty!
+								</p>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="bg-distinct py-3 clearfix">
+
+					<div class="container clearfix font-weight-light text-center-xs">
+
+						<div class="fs--14 py-2 float-start float-none-xs m-0-xs">
+							&copy; My Company Inc.
+						</div>
+
+						<ul class="list-inline mb-0 mt-2 float-end float-none-xs m-0-xs"> 
+							<li class="list-inline-item m-0"> 
+								<img width="38" height="24" class="lazy" data-src="assets/images/credit_card/visa.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="visa credit card icon">
+							</li> 
+
+							<li class="list-inline-item m-0"> 
+								<img width="38" height="24" class="lazy" data-src="assets/images/credit_card/mastercard.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="mastercard credit card icon">
+							</li> 
+
+							<li class="list-inline-item m-0"> 
+								<img width="38" height="24" class="lazy" data-src="assets/images/credit_card/discover.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="discover credit card icon">
+							</li>
+
+							<li class="list-inline-item m-0"> 
+								<img width="38" height="24" class="lazy" data-src="assets/images/credit_card/amazon.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="amazon credit card icon">
+							</li>
+							
+							<li class="list-inline-item m-0"> 
+								<img width="38" height="24" class="lazy" data-src="assets/images/credit_card/paypal.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="paypal credit card icon">
+							</li>
+
+							<li class="list-inline-item m-0"> 
+								<img width="38" height="24" class="lazy" data-src="assets/images/credit_card/skrill.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="skrill credit card icon">
+							</li>
+
+							<!-- more vendors on assets/images/credit_card/ -->
+
+						</ul>
+
+					</div>
+				</div>
+
+			</footer>
+			<!-- /Footer -->
+		</div>
+	
+
+
+		<script src="assets/js/core.min.js"></script>
+
+	</body>
+</html>
