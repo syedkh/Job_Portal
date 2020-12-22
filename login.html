@@ -1,0 +1,263 @@
+<html>
+    
+   <a type="button">login</a> 
+</html>
+
+
+
+<ul class="nav nav-tabs nav-tabs-border-top " id="myTabBorderedTop" role="tablist">
+   <li class="nav-item " >
+      <a class="nav-link active nav-tab-color" id="search-trainer" data-toggle="tab" href="#serach_trainer" role="tab" aria-controls="trainersearch"
+         aria-selected="true">
+         Search for trainer
+      </a>
+   </li>
+
+   <li class="nav-item">
+      <a class="nav-link nav-tab-color" id="job-search" data-toggle="tab" href="#jobserach" role="tab" aria-controls="profile"
+         aria-selected="false">
+         Job Search
+      </a>
+   </li>
+
+</ul>
+
+<div class="tab-content" id="myTabBorderedContentTop">
+
+   <div class="tab-pane fade show active" id="serach_trainer" role="tabpanel" aria-labelledby="search-trainer">
+       <div>
+         <form novalidate action="#" method="POST" class="bs-validate p-5 py-6 rounded d-inline-block bg-white text-dark w-100 max-w-600">
+
+            <!--
+            <p class="text-danger">
+               Ups! Please check again
+            </p>
+            -->
+
+            <div class="form-label-group mb-3">
+               <input required placeholder="Search for trainer" id="search_trainer" name="search_trainer" type="text" class="form-control">
+               <label for="search_trainer">Serach for trainer</label>
+            </div>
+
+            <div class="input-group-over">
+               <div class="form-label-group mb-4">
+                  <select required id="s_location" class="form-control bs-select" data-live-search="true" title="No City Selected">
+                     <option value="">No City Selected</option>
+                     <option value="1">New York City</option>
+                     <option value="2">Washington, DC Area</option>
+                     <option value="3">Miami</option>
+                     <option value="4">Greater Boston</option>
+                     <option value="5">The Hamptons</option>
+                     <option value="6">Los Angeles &amp; Orange County</option>
+                     <option value="7">Santa Barbara &amp; Montecito</option>
+                     <option value="8">Aspen</option>
+                     <option value="9">San Francisco Bay Area</option>
+                  </select>
+                  <label for="s_location"><i class="fi fi-pin pr-2"></i>Select a City</label>
+               </div>
+
+               
+
+            </div>
+
+
+
+            <div class="row">
+
+               <div class="col-12 mt-4">
+                  <button type="submit" class="btn btn-primary btn-block transition-hover-top">
+                     Search
+                  </button>
+               </div>
+
+            
+
+            </div>
+
+         </form>
+      </div>
+   </div>
+
+   <div class="tab-pane fade" id="jobserach" role="tabpanel" aria-labelledby="job-search">
+      <!-- <div class="p--15"> -->
+         <form novalidate action="#" method="POST" class="bs-validate p-5 py-6 rounded d-inline-block bg-white text-dark w-100 max-w-600">
+
+            <!--
+            <p class="text-danger">
+               Ups! Please check again
+            </p>
+            -->
+
+            <div class="form-label-group mb-3">
+               <input required placeholder="Search for Company" id="search_company" name="search_company" type="text" class="form-control">
+               <label for="search_company">Serach for Company</label>
+            </div>
+
+            <div class="input-group-over">
+               <div class="form-label-group mb-4">
+                  <select required id="s_location" class="form-control bs-select" data-live-search="true" title="No City Selected">
+                     <option value="">No City Selected</option>
+                     <option value="1">New York City</option>
+                     <option value="2">Washington, DC Area</option>
+                     <option value="3">Miami</option>
+                     <option value="4">Greater Boston</option>
+                     <option value="5">The Hamptons</option>
+                     <option value="6">Los Angeles &amp; Orange County</option>
+                     <option value="7">Santa Barbara &amp; Montecito</option>
+                     <option value="8">Aspen</option>
+                     <option value="9">San Francisco Bay Area</option>
+                  </select>
+                  <label for="s_location"><i class="fi fi-pin pr-2"></i>Select a City</label>
+               </div>
+
+               
+
+            </div>
+
+
+
+            <div class="row">
+
+               <div class="col-12 mt-4">
+                  <button type="submit" class="btn btn-primary btn-block transition-hover-top">
+                     Search
+                  </button>
+               </div>
+
+            
+
+            </div>
+
+         </form>
+      <!-- </div> -->
+   </div>
+
+
+
+</div>
+
+
+
+
+
+<div class="modal-body bg-white rounded m-5 m-4-xs">
+
+   <div class="accordion rounded p--2" id="accordionAccount">
+
+   
+      <!-- Search for trainer  -->
+      <form class="collapse bs-validate show" novalidate method="post" action="#" id="accordionsearchfortrainer" data-parent="#accordionAccount">
+
+         
+
+
+         <h5 class="text-center pb-3">Search for Trainer</h5>
+
+         <div class="form-label-group mb-3">
+            <input required id="search_for_trainer" type="text" class="form-control" placeholder="Search for trainer">
+            <label for="search_for_trainer">Search for Trainer</label>
+         </div>
+
+         <div class="form-label-group mb-3">
+            <!-- bootstrap select vendor plugin used -->
+            <select required class="form-control bs-select pt-0 pb-0" data-live-search="true">
+               <option value="">Country...</option>
+               <option>United States</option>
+               <option>United Kingdrom</option>
+               <option>France</option>
+               <option>United States</option>
+               <option>United Kingdrom</option>
+               <option>France</option>
+               <option>United States</option>
+               <option>United Kingdrom</option>
+               <option>France</option>
+            </select>
+            <label for="signup_email"><i class="fi fi-pin pr-2"></i>Location</label>
+         </div>
+
+         
+         <div class="row">
+
+            <div class="col-12 mt-4">
+               <button type="submit" class="btn btn-primary btn-block transition-hover-top">
+                 Search
+               </button>
+            </div>
+ 
+          
+ 
+         </div>
+          <div class="text-center mt-5">
+            <button href="#accordionSearchforJob" class=" btn btn-link btn-block  btn-lg  text-align-start text-decoration-none text-dark" style="background-color: rgb(200, 209, 205);" data-toggle="collapse" aria-expanded="true" aria-controls="accordionAccountSignUp">
+               Searching For a Job?..click here
+               <span class="group-icon float-end">
+                  
+                  <i class="fi fi-arrow-up-slim"></i>
+               </span>
+            </button>
+            
+         </div>
+
+      </form>
+      <!-- /SIGN IN -->
+
+      <!-- SIGN UP -->
+      <form class="collapse bs-validate" novalidate method="post" action="#" id="accordionSearchforJob" data-parent="#accordionAccount">
+
+         <h5 class="text-center pb-3">Search for job</h5>
+
+         <div class="form-label-group mb-3">
+            <input required id="search_for_job" type="text" class="form-control" placeholder="Search for job">
+            <label for="search_for_job">Search for job</label>
+         </div>
+
+         <div class="form-label-group mb-3">
+            <!-- bootstrap select vendor plugin used -->
+            <select required class="form-control bs-select pt-0 pb-0" data-live-search="true">
+               <option value="">City,Country...</option>
+               <option>United States</option>
+               <option>United Kingdrom</option>
+               <option>France</option>
+               <option>United States</option>
+               <option>United Kingdrom</option>
+               <option>France</option>
+               <option>United States</option>
+               <option>United Kingdrom</option>
+               <option>France</option>
+            </select>
+            <label for="signup_email"><i class="fi fi-pin pr-2"></i>Location</label>
+         </div>
+            
+ 
+         <div class="row">
+
+            <div class="col-12 mt-4">
+               <button type="submit" class="btn btn-primary btn-block transition-hover-top">
+                 Search
+               </button>
+            </div>
+ 
+          
+ 
+         </div>
+
+      
+
+         <div class="text-center mt-5">
+            <a href="#accordionsearchfortrainer" class=" btn btn-link btn-block  btn-lg  text-align-start text-decoration-none text-dark" style="background-color: rgb(200, 209, 205);"  data-toggle="collapse" aria-expanded="true" aria-controls="accordionAccountSignIn">
+               searching for a trainer?..click here
+               <span class="group-icon float-end">
+                  
+                  <i class="fi fi-arrow-up-slim"></i>
+               </span>
+            </a>
+         
+         </div>
+
+      </form>
+      <!-- /SIGN UP -->
+
+
+   </div>
+
+</div>
