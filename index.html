@@ -11,7 +11,8 @@
         <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
         <link rel="dns-prefetch" href="https://fonts.gstatic.com/">
         <link rel="preconnect" href="https://fonts.googleapis.com/">
-        <link rel="preconnect" href="https://fonts.gstatic.com/">
+		<link rel="preconnect" href="https://fonts.gstatic.com/">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
         <!-- preloading icon font is helping to speed up a little bit -->
         <link rel="preload" href="assets/fonts/flaticon/Flaticon.woff2" as="font" type="font/woff2" crossorigin>
 
@@ -140,6 +141,26 @@
 												</ul>
 			
 											</li>
+
+											<li class="nav-item dropdown">
+			
+												<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="mainNavFeatures">
+													Review
+												</a>
+			
+												<ul class="dropdown-menu dropdown-menu-clean dropdown-menu-hover" aria-labelledby="mainNavFeatures">
+			
+													<li class="dropdown-item">
+														<a class="dropdown-link" href="niche.realestate-category.html">Company review</a>
+													</li>
+			
+													<li class="dropdown-item">
+														<a class="dropdown-link" href="niche.realestate-item.html">Trainer reviews</a>
+													</li>
+			
+												</ul>
+			
+											</li>
 			
 			
 											<!-- about -->
@@ -152,28 +173,7 @@
 											</li>
 			
 			
-											<!-- social : mobile only (d-block d-sm-none)
-											<li class="nav-item d-block d-sm-none text-center mb-4">
-			
-												<h3 class="h6 text-muted">Follow Us</h3>
-			
-												<a href="#!" class="btn btn-sm btn-facebook transition-hover-top mb-2 rounded-circle text-white" rel="noopener">
-													<i class="fi fi-social-facebook"></i> 
-												</a>
-			
-												<a href="#!" class="btn btn-sm btn-twitter transition-hover-top mb-2 rounded-circle text-white" rel="noopener">
-													<i class="fi fi-social-twitter"></i> 
-												</a>
-			
-												<a href="#!" class="btn btn-sm btn-linkedin transition-hover-top mb-2 rounded-circle text-white" rel="noopener">
-													<i class="fi fi-social-linkedin"></i> 
-												</a>
-			
-												<a href="#!" class="btn btn-sm btn-youtube transition-hover-top mb-2 rounded-circle text-white" rel="noopener">
-													<i class="fi fi-social-youtube"></i> 
-												</a>
-			
-											</li> -->
+						
 			
 			
 										</ul>
@@ -186,7 +186,7 @@
 			
 										<li class="nav-item dropdown">
 								
-												<a class="nav-link dropdown-toggle btn btn-sm btn-pill btn-primary  d-none d-lg-inline-block d-md-inline-block " type="button" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false"  id="loginorRegisterFeatures" >
+												<a class="nav-link dropdown-toggle btn btn-sm btn-pill btn-primary text-white  d-none d-lg-inline-block d-md-inline-block " type="button" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false"  id="loginorRegisterFeatures" >
 													<span class="group-icon">
 														<i class="fi fi-exit mr-2 pb-1 fs--15"></i>SignIn/SignUp
 
@@ -320,7 +320,7 @@
 		
 		
 					<!-- COVER + SEARCH -->
-					<section class="bg-theme-color-light overlay-dark overlay-opacity-8 lazy" id="bgimage"
+					<section class="bg-theme-color-light overlay-dark overlay-opacity-8 lazy " id="bgimage"
 						 data-background-image="jobportallandingpage.jpg">
 						
 						<div class="container"> 
@@ -356,59 +356,38 @@
 										</h2>
 		
 										<form novalidate class="bs-validate" method="get" action="#">
-		
-											
-
-											<div class="form-label-group mb-3">
-												<input required id="search_for_jobortrainer" type="text" class="form-control" placeholder="Search for job or trainer">
-												<label for="search_for_jobortrainer">Search for job or trainer</label>
-											 </div>
-											 <div class="form-label-group mb-3">
-												<input required id="search_for_jobortrainer" type="text" class="form-control" placeholder="Search for job or trainer">
-												<label for="search_for_jobortrainer"><i class="fi fi-pin"></i>Location</label>
-											 </div>
-											 <div class="clearfix mb-4">
+										
+										
+											<div class="input-group  mb-3">
+												<input required id="search_for_jobortrainer" type="text" class="form-control"
+													placeholder="Search for job or trainer">
+												<label for="search_for_Location"></label>
+											</div>
+											<div class="input-group  mb-3">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fi fi-pin"></i></span>
+												</div>
+												<input required id="search_for_Location" type="text" class="form-control" placeholder="Location">
+												<label for="search_for_Location"></label>
+											</div>
+											<div class="clearfix mb-4">
 												<label class="form-radio form-radio-primary">
 													<input type="radio" name="s_type" value="1" checked>
 													<i></i> Training Requirements
 												</label>
-		
+										
 												<label class="form-radio form-radio-primary">
 													<input type="radio" name="s_type" value="2">
 													<i></i> Trainers
 												</label>
 											</div>
-									
-		
-											<!-- <div class="form-label-group mb-4">
-												<select required id="s_location" class="form-control bs-select" data-live-search="true" title="No City Selected">
-													<option value="">No City Selected</option>
-													<option value="1">New York City</option>
-													<option value="2">Washington, DC Area</option>
-													<option value="3">Miami</option>
-													<option value="4">Greater Boston</option>
-													<option value="5">The Hamptons</option>
-													<option value="6">Los Angeles &amp; Orange County</option>
-													<option value="7">Santa Barbara &amp; Montecito</option>
-													<option value="8">Aspen</option>
-													<option value="9">San Francisco Bay Area</option>
-												</select>
-												<label for="s_location">Select a City,Country...</label>
-											</div> -->
-		
-											
-		
-											
-		
 										
-		
-		
+										
 											<button type="submit" class="btn btn-block btn-lg btn-primary bg-gradient-primary-soft">
 												<i class="fi fi-search"></i>
 												Search
 											</button>
 										</form>
-		
 									</div>
 									<!--
 										To remember last tab, add:
@@ -429,16 +408,16 @@
 					<!-- /COVER + SEARCH -->
 
 						<!-- Forum / Comunity -->
-					<section class="bg-light">
-						<div class="container">
+					<section class="bg-light p--30">
+						<div class="container-fluid">
 
-							<div class="row">
+							<div class="row ">
 
-								<div class="mb-4 order-lg-1 col-12 col-lg-8">
+								<div class="mb-4 p-0 pr-3 col-12 col-lg-8">
 
-									<div class="bg-white  p-4 rounded">
+									<div class="bg-white  p-2 rounded">
 
-										<h2 class="h2 mb-3 text-dark font-weight-normal">
+										<h2 class="h3 mb-3 text-dark font-weight-normal">
 											Training Requirements
 										</h2>
 										<li class="dropdown-divider"></li>
@@ -462,12 +441,19 @@
 
 											</div>
 
-											<ul class="list-inline mt-2 text-muted fs--14">
+											<ul class="list-inline  mt-2 text-muted fs--14">
+											
 												<li class="list-inline-item">
-													<i class="fi fi-chat float-start"></i> 26 posts 
+													<i class="fi fi-time float-start"></i> 29 June 2020
 												</li>
 												<li class="list-inline-item">
-													<i class="fi fi-time float-start"></i> 29 June 2020 16:41
+													<i class="fa fa-laptop" aria-hidden="true"></i> Virtual
+												</li>
+												<li class="list-inline-item">
+													<i class="fas fa-coins mr-1" aria-hidden="true"></i>Rs.30,000/month
+												</li>
+												<li class="list-inline-item">
+													<i class="far fa-building mr-1"></i><a href="#" class=" font-weight-medium fs--18">Cognizant</a>
 												</li>
 											</ul>
 										</div>
@@ -495,10 +481,16 @@
 
 											<ul class="list-inline mt-2 text-muted fs--14">
 												<li class="list-inline-item">
-													<i class="fi fi-chat float-start"></i> 26 posts 
+													<i class="fi fi-time float-start"></i> 29 June 2020
 												</li>
 												<li class="list-inline-item">
-													<i class="fi fi-time float-start"></i> 29 June 2020 16:41 
+													<i class="fa fa-laptop" aria-hidden="true"></i> Classroom
+												</li>
+												<li class="list-inline-item">
+													<i class="fas fa-coins mr-1" aria-hidden="true"></i>Rs.30,000/month
+												</li>
+												<li class="list-inline-item">
+													<i class="far fa-building mr-1"></i><a href="#" class=" font-weight-medium fs--18">TCS</a>
 												</li>
 											</ul>
 										</div>
@@ -523,10 +515,16 @@
 
 											<ul class="list-inline mt-2 text-muted fs--14">
 												<li class="list-inline-item">
-													<i class="fi fi-chat float-start"></i> 26 posts 
+													<i class="fi fi-time float-start"></i> 29 June 2020
 												</li>
 												<li class="list-inline-item">
-													<i class="fi fi-time float-start"></i> 29 June 2020 16:41 
+													<i class="fa fa-laptop" aria-hidden="true"></i> Classroom
+												</li>
+												<li class="list-inline-item">
+													<i class="fas fa-coins mr-1" aria-hidden="true"></i>Rs.30,000/month
+												</li>
+												<li class="list-inline-item">
+													<i class="far fa-building mr-1"></i><a href="#" class=" font-weight-medium fs--18">Wipro</a>
 												</li>
 											</ul>
 										</div>
@@ -541,96 +539,136 @@
 
 								</div>
 
-								<div class=" order-lg-2 col-12 col-lg-4">
-									<div class="bg-white p-4 rounded">
-										<h2 class="h2 mb-3 text-dark font-weight-normal">
+								<div class="  p-0 col-12 col-lg-4">
+									<div class="bg-white p-2 rounded">
+										<h2 class="h3 mb-3 text-dark font-weight-normal">
 										 Trainers available
 										</h2>
-									
+										<li class="dropdown-divider"></li>
 										<a href="niche.classifieds-item.html"
 											class="d-flex p-2 mb-3 shadow-xs shadow-md-hover rounded text-decoration-none transition-hover-top transition-all-ease-250">
 									
 											<!-- image -->
-											<div class="text-center bg-light w--100 h--100 rounded bg-cover lazy"
+											<div class="text-center bg-light w--100 h--110 rounded bg-cover lazy"
 												data-background-image="demo.files/images/unsplash/products/thumb_330/barrett-ward-cOJgO4Zzs-w-unsplash-min.jpg">
 											</div>
 									
-											<div class="col px-3">
+											<div class="col px-2">
 									
-												<p class="fs--18 pt-2 mb-2 font-weight-medium text-dark">
-													2019 New original shoes, never weared
-													<span class="d-block mt-2 text-dark font-weight-light fs--18">
-														$159.99
-													</span>
+												<p class="fs--14  mb-2 font-weight-medium text-dark">
+													Hema Srinivas
+												
+													
 												</p>
-									
-											</div>
-									
-										</a>
-									
-									
-										<a href="niche.classifieds-item.html"
-											class="d-flex p-2 mb-3 shadow-xs shadow-md-hover rounded text-decoration-none transition-hover-top transition-all-ease-250">
-									
-											<!-- image -->
-											<div class="text-center bg-light w--100 h--100 rounded bg-cover lazy"
-												data-background-image="demo.files/images/unsplash/products/thumb_330/aidan-hancock-EwKkZu18HPo-unsplash-min.jpg">
-											</div>
-									
-											<div class="col px-3">
-									
-												<p class="fs--18 pt-2 mb-2 font-weight-medium text-dark">
-													Brand new phone, no scratches
-													<span class="d-block mt-2 text-dark font-weight-light fs--18">
-														$159.99
-													</span>
+												<p class="fs--14  mb-2 font-weight-medium text-dark">
+													Java
+													
 												</p>
-									
-											</div>
-									
-										</a>
-									
-									
-										<a href="niche.classifieds-item.html"
-											class="d-flex p-2 mb-3 shadow-xs shadow-md-hover rounded text-decoration-none transition-hover-top transition-all-ease-250">
-									
-											<!-- image -->
-											<div class="text-center bg-light w--100 h--100 rounded bg-cover lazy"
-												data-background-image="demo.files/images/unsplash/products/thumb_330/aidan-hancock-UtzrcidfCsk-unsplash-min.jpg">
-											</div>
-									
-											<div class="col px-3">
-									
-												<p class="fs--18 pt-2 mb-2 font-weight-medium text-dark">
-													I sell my old laptop, to buy a new one
-													<span class="d-block mt-2 text-dark font-weight-light fs--18">
-														$159.99
-													</span>
+												<p class="fs--14  mb-2 font-weight-medium text-dark">
+													<i class="fas fa-coins mr-1" aria-hidden="true"></i>10,000/Day
+													<span class="rating-4  float-end m-0 float-none-xs text-warning fs--14 mt-1"></span>
+													
 												</p>
+											
+
 									
 											</div>
 									
 										</a>
 										<a href="niche.classifieds-item.html"
-											class="d-flex p-2 mb-3 shadow-xs shadow-md-hover rounded text-decoration-none transition-hover-top transition-all-ease-250">
+										class="d-flex p-2 mb-3 shadow-xs shadow-md-hover rounded text-decoration-none transition-hover-top transition-all-ease-250">
+								
+										<!-- image -->
+										<div class="text-center bg-light w--100 h--110 rounded bg-cover lazy"
+											data-background-image="demo.files/images/unsplash/products/thumb_330/barrett-ward-cOJgO4Zzs-w-unsplash-min.jpg">
+										</div>
+								
+										<div class="col px-2">
+								
+											<p class="fs--14  mb-2 font-weight-medium text-dark">
+												One plus
+											
+												
+											</p>
+											<p class="fs--14  mb-2 font-weight-medium text-dark">
+												Java,c#
+												
+											</p>
+											<p class="fs--14  mb-2 font-weight-medium text-dark">
+												<i class="fas fa-coins mr-1" aria-hidden="true"></i>10,000/Day
+												<span class="rating-4 float-end m-0 float-none-xs text-warning fs--14 mt-1"></span>
+												
+											</p>
+										
+
+								
+										</div>
+								
+									</a>
+									<a href="niche.classifieds-item.html"
+									class="d-flex p-2 mb-3 shadow-xs shadow-md-hover rounded text-decoration-none transition-hover-top transition-all-ease-250">
+							
+									<!-- image -->
+									<div class="text-center bg-light w--100 h--110 rounded bg-cover lazy"
+										data-background-image="demo.files/images/unsplash/products/thumb_330/barrett-ward-cOJgO4Zzs-w-unsplash-min.jpg">
+									</div>
+							
+									<div class="col px-2">
+							
+										<p class="fs--14  mb-2 font-weight-medium text-dark">
+											Sakhil Ansari
+										
+											
+										</p>
+										<p class="fs--14  mb-2 font-weight-medium text-dark">
+											Dotnet
+											
+										</p>
+										<p class="fs--14  mb-2 font-weight-medium text-dark">
+											<i class="fas fa-coins mr-1" aria-hidden="true"></i>20,000/Day
+											<span class="rating-5 float-end m-0 float-none-xs text-warning fs--14 mt-1"></span>
+											
+										</p>
 									
-											<!-- image -->
-											<div class="text-center bg-light w--100 h--100 rounded bg-cover lazy"
-												data-background-image="demo.files/images/unsplash/products/thumb_330/aidan-hancock-UtzrcidfCsk-unsplash-min.jpg">
-											</div>
+
+							
+									</div>
+							
+								</a>
+								<a href="niche.classifieds-item.html"
+								class="d-flex p-2 mb-3 shadow-xs shadow-md-hover rounded text-decoration-none transition-hover-top transition-all-ease-250">
+						
+								<!-- image -->
+								<div class="text-center bg-light w--100 h--110 rounded bg-cover lazy"
+									data-background-image="demo.files/images/unsplash/products/thumb_330/barrett-ward-cOJgO4Zzs-w-unsplash-min.jpg">
+								</div>
+						
+								<div class="col px-2">
+						
+									<p class="fs--14  mb-2 font-weight-medium text-dark">
+										Syed Khaleelullah
 									
-											<div class="col px-3">
+										
+									</p>
+									<p class="fs--14  mb-2 font-weight-medium text-dark">
+										DotNet
+										
+									</p>
+									<p class="fs--14  mb-2 font-weight-medium text-dark">
+										<i class="fas fa-coins mr-1" aria-hidden="true"></i>30,000/Day
+										<span class="rating-5 float-end m-0 float-none-xs text-warning fs--14 mt-1"></span>
+										
+									</p>
+								
+
+						
+								</div>
+						
+							</a>
+						
 									
-												<p class="fs--18 pt-2 mb-2 font-weight-medium text-dark">
-													I sell my old laptop, to buy a new one
-													<span class="d-block mt-2 text-dark font-weight-light fs--18">
-														$159.99
-													</span>
-												</p>
 									
-											</div>
 									
-										</a>
 									
 									
 										<div class="text-align-end">
